@@ -1,0 +1,35 @@
+<svg width="900" height="420" viewBox="0 0 900 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="420" rx="28" fill="url(#bg)"/>
+  <rect x="22" y="22" width="856" height="376" rx="20" stroke="#59B0FF" stroke-opacity="0.55" stroke-width="2"/>
+  <rect x="70" y="70" width="760" height="280" rx="24" fill="#121744" stroke="#36E8FF" stroke-opacity="0.45"/>
+  <circle cx="280" cy="210" r="72" fill="url(#coinGlow)"/>
+  <circle cx="280" cy="210" r="52" fill="#FFCF4F" stroke="#FFE89D" stroke-width="8"/>
+  <path d="M252 210H308" stroke="#7A5B12" stroke-width="8" stroke-linecap="round"/>
+  <path d="M279 186V234" stroke="#7A5B12" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="620" cy="210" r="72" fill="url(#coinGlow2)"/>
+  <circle cx="620" cy="210" r="52" fill="#D5E8FF" stroke="#F8FDFF" stroke-width="8"/>
+  <path d="M590 210H650" stroke="#5774A8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M620 180V240" stroke="#5774A8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M354 126C436 52 548 52 630 126" stroke="#45F6FF" stroke-width="6" stroke-linecap="round" stroke-dasharray="8 10"/>
+  <path d="M354 294C436 368 548 368 630 294" stroke="#8EFF70" stroke-width="6" stroke-linecap="round" stroke-dasharray="8 10"/>
+  <rect x="346" y="168" width="208" height="84" rx="14" fill="#1A2056" stroke="#6374FF"/>
+  <text x="450" y="202" fill="#D9E4FF" font-family="monospace" font-size="19" text-anchor="middle">QUICKFLIP</text>
+  <text x="450" y="229" fill="#8DFF6C" font-family="monospace" font-size="17" text-anchor="middle">ONCHAIN ARCADE</text>
+  <circle cx="146" cy="106" r="9" fill="#2AF0FF"/>
+  <circle cx="762" cy="308" r="9" fill="#8DFF6C"/>
+  <circle cx="742" cy="108" r="6" fill="#FFCF4F"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1236"/>
+      <stop offset="1" stop-color="#1B0B25"/>
+    </linearGradient>
+    <radialGradient id="coinGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(280 210) rotate(90) scale(72)">
+      <stop stop-color="#FFE57F" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#FFE57F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coinGlow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(620 210) rotate(90) scale(72)">
+      <stop stop-color="#7EF3FF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#7EF3FF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
