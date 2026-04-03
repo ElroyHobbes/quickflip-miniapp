@@ -8,6 +8,9 @@ export const wagmiConfig = createConfig({
     coinbaseWallet({
       appName: "QuickFlip"
     }),
+    injected({
+      target: "okxWallet"
+    }),
     injected()
   ],
   transports: {

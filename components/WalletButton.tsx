@@ -22,6 +22,9 @@ export function WalletButton() {
   }
 
   const coinbase = connectors.find((c) => c.id === "coinbaseWalletSDK");
+  const okx = connectors.find(
+    (c) => c.id.toLowerCase().includes("okx") || c.name.toLowerCase().includes("okx")
+  );
   const injected = connectors.find((c) => c.id === "injected");
 
   return (
@@ -29,6 +32,11 @@ export function WalletButton() {
       {coinbase ? (
         <button className="btn" onClick={() => connect({ connector: coinbase })} type="button">
           {isPending ? "Connecting..." : "Connect Coinbase"}
+        </button>
+      ) : null}
+      {okx ? (
+        <button className="btn btn-secondary" onClick={() => connect({ connector: okx })} type="button">
+          {isPending ? "Connecting..." : "Connect OKX"}
         </button>
       ) : null}
       {injected ? (
