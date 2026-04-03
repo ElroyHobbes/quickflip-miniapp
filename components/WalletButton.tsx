@@ -45,7 +45,9 @@ export function WalletButton() {
       if (!provider && connector.id !== "coinbaseWalletSDK") {
         setIsWarn(true);
         if (connector.name.toLowerCase().includes("okx")) {
-          setLocalMessage("OKX wallet not detected. Open this site in OKX App browser.");
+          setLocalMessage(
+            "OKX wallet not detected. Install OKX extension on desktop, or open this site in OKX App browser."
+          );
         } else {
           setLocalMessage(`${connector.name} is not available in this browser.`);
         }

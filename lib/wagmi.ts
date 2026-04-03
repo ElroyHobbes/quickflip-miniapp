@@ -9,7 +9,27 @@ export const wagmiConfig = createConfig({
       appName: "QuickFlip"
     }),
     injected({
-      target: "okxWallet"
+      target: {
+        id: "okx",
+        name: "OKX Wallet",
+        provider: (window) => {
+          const w = window as any;
+          const directOkx = w?.okxwallet?.ethereum ?? w?.okxwallet;
+          if (directOkx) return directOkx;
+
+          const ethereumProvider = w?.ethereum;
+          if (ethereumProvider?.isOkxWallet || ethereumProvider?.isOKExWallet) {
+            return ethereumProvider;
+          }
+
+          const providers = ethereumProvider?.providers;
+          if (Array.isArray(providers)) {
+            return providers.find((p: any) => p?.isOkxWallet || p?.isOKExWallet);
+          }
+
+          return undefined;
+        }
+      }
     }),
     injected()
   ],
