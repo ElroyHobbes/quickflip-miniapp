@@ -15,3 +15,11 @@ Because the project structure may evolve over time, always check the files in th
 ## Repository
 
 GitHub:
+
+https://github.com/ElroyHobbes/quickflip-miniapp.git
+
+Clone URL:
+
+```bash
+git clone https://github.com/ElroyHobbes/quickflip-miniapp.git
+```
