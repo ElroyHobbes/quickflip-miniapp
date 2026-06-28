@@ -162,3 +162,13 @@ Suggested workflow:
 6. Open a pull request.
 
 ## License
+
+No license information was provided in the original README.
+
+If a license file is added to the repository, refer to that file for usage and distribution terms.
+
+## Notes
+
+This README is intended to provide a practical foundation for the project.
+
+Update it as the application, setup process, and development workflow become more defined.
