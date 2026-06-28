@@ -146,3 +146,12 @@ If setup fails:
 - Confirm required tools are installed.
 - Remove and reinstall dependencies if needed.
 - Check the project configuration files for expected commands.
+- Review recent changes if the project previously worked.
+
+## Contributing
+
+Contributions should keep the project clear, maintainable, and aligned with its existing structure.
+
+Suggested workflow:
+
+1. Clone the repository.
