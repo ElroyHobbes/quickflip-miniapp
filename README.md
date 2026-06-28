@@ -94,3 +94,11 @@ npm start
 Use the command that matches the scripts and tooling included in the repository.
 
 ## Project Structure
+
+The exact structure may vary as the project develops.
+
+Common files and folders may include:
+
+- Source files for the mini app.
+- Configuration files.
+- Dependency manifests.
