@@ -155,3 +155,10 @@ Contributions should keep the project clear, maintainable, and aligned with its 
 Suggested workflow:
 
 1. Clone the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Run available checks.
+5. Commit your work.
+6. Open a pull request.
+
+## License
