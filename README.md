@@ -50,3 +50,11 @@ If the repository includes files such as `package.json`, `requirements.txt`, `py
 Clone the repository:
 
 ```bash
+git clone https://github.com/ElroyHobbes/quickflip-miniapp.git
+```
+
+Move into the project directory:
+
+```bash
+cd quickflip-miniapp
+```
