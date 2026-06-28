@@ -110,3 +110,13 @@ Check the repository contents for the current layout.
 ## Development Notes
 
 When making changes:
+
+- Create a dedicated branch for your work.
+- Keep commits focused and descriptive.
+- Run available checks before committing.
+- Avoid committing generated files unless they are required by the project.
+- Keep documentation updated when behavior or setup changes.
+
+## Testing
+
+If the repository includes a test command, run it before opening a pull request or merging changes.
