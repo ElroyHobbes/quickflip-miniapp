@@ -32,3 +32,13 @@ git clone https://github.com/ElroyHobbes/quickflip-miniapp.git
 - Suitable for iterative development, testing, and improvement.
 
 ## Getting Started
+
+Follow these steps to set up the project on your local machine.
+
+## Prerequisites
+
+Before you begin, make sure you have:
+
+- Git installed.
+- The runtime and package manager required by the project files.
+- Access to a terminal or command line.
