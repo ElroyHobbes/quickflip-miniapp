@@ -58,3 +58,13 @@ Move into the project directory:
 ```bash
 cd quickflip-miniapp
 ```
+
+Install dependencies using the package manager appropriate for the project.
+
+For example, if a `package.json` file is present, use the package manager configured for the project:
+
+```bash
+npm install
+```
+
+If the project uses a different tool, follow the dependency instructions provided by the repository files.
