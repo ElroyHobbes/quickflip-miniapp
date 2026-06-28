@@ -84,3 +84,13 @@ Then run the appropriate command, such as:
 ```bash
 npm run dev
 ```
+
+or:
+
+```bash
+npm start
+```
+
+Use the command that matches the scripts and tooling included in the repository.
+
+## Project Structure
