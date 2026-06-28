@@ -137,3 +137,12 @@ When updating dependencies:
 - Confirm the project still installs successfully.
 - Run available tests and checks.
 - Commit lockfile updates when the project uses a lockfile.
+
+## Troubleshooting
+
+If setup fails:
+
+- Confirm you are in the correct project directory.
+- Confirm required tools are installed.
+- Remove and reinstall dependencies if needed.
+- Check the project configuration files for expected commands.
