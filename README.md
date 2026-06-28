@@ -76,3 +76,11 @@ After installing dependencies, run the project using the start or development co
 For example, if the project uses npm scripts, you can inspect available commands with:
 
 ```bash
+npm run
+```
+
+Then run the appropriate command, such as:
+
+```bash
+npm run dev
+```
