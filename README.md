@@ -120,3 +120,11 @@ When making changes:
 ## Testing
 
 If the repository includes a test command, run it before opening a pull request or merging changes.
+
+For npm-based projects, this may look like:
+
+```bash
+npm test
+```
+
+If another test framework is used, follow the command defined in the repository configuration.
