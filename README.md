@@ -128,3 +128,12 @@ npm test
 ```
 
 If another test framework is used, follow the command defined in the repository configuration.
+
+## Updating Dependencies
+
+When updating dependencies:
+
+- Review the dependency changes carefully.
+- Confirm the project still installs successfully.
+- Run available tests and checks.
+- Commit lockfile updates when the project uses a lockfile.
