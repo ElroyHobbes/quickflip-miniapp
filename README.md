@@ -68,3 +68,11 @@ npm install
 ```
 
 If the project uses a different tool, follow the dependency instructions provided by the repository files.
+
+## Usage
+
+After installing dependencies, run the project using the start or development command defined by the project.
+
+For example, if the project uses npm scripts, you can inspect available commands with:
+
+```bash
