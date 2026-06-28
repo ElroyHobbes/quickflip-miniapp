@@ -23,3 +23,12 @@ Clone URL:
 ```bash
 git clone https://github.com/ElroyHobbes/quickflip-miniapp.git
 ```
+
+## Features
+
+- Contains the source code for the Quickflip mini app.
+- Provides a single repository for development and maintenance.
+- Can be cloned and run locally once the required project dependencies are installed.
+- Suitable for iterative development, testing, and improvement.
+
+## Getting Started
