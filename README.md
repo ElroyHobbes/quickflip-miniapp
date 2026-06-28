@@ -102,3 +102,11 @@ Common files and folders may include:
 - Source files for the mini app.
 - Configuration files.
 - Dependency manifests.
+- Static assets.
+- Documentation.
+
+Check the repository contents for the current layout.
+
+## Development Notes
+
+When making changes:
