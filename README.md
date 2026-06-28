@@ -42,3 +42,11 @@ Before you begin, make sure you have:
 - Git installed.
 - The runtime and package manager required by the project files.
 - Access to a terminal or command line.
+
+If the repository includes files such as `package.json`, `requirements.txt`, `pyproject.toml`, or similar dependency files, use them to determine the correct installation command.
+
+## Installation
+
+Clone the repository:
+
+```bash
